@@ -1,5 +1,5 @@
 .bottom-bar {
-	bottom:0;
+	bottom: 0;
 	position: absolute;
 	width: 100%;
 }
@@ -7,4 +7,25 @@
 #header .navbar-brand {
 	font-weight: 700;
 	font-size: x-large;
+}
+
+.nav-link img {
+	width: 2.5rem;
+}
+
+.nav-link {
+	align-content: center;
+}
+
+@media (min-width: 992px) {
+	.navbar-title {
+		display: none;
+	}
+}
+
+@media (max-width: 991px) {
+	.nav-link {
+		justify-content: space-between;
+		display: flex;
+	}
 }
