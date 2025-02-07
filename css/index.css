@@ -1,23 +1,45 @@
-@import url("./fonts.scss");
+@import url("https://meltymooncakes.com/css/fonts.css");
+@import url("./components/others.css");
+@import url("./components/navbar.css");
+
 :root {
-  --navbar-background: #651E51;
-  --background: #3B1C32;
-  --text: #E0E0E0 ;
+	--navbar-background: #dd9ac2;
+	--background: #26271A;
+	--component-striped-a: #AF8BAF;
+	--component-striped-b: #F6ACC8;
+	--text: #E0E0E0
 }
 
 body {
-  background-color: var(--background);
-  color: var(--text);
+	background-color: var(--background);
+	color: var(--text);
+	font-family: montserrat;
 }
 
 .navbar {
-  background-color: var(--navbar-background) !important;
-  font-family: montserrat;
+	background-color: var(--navbar-background) !important;
+	font-weight: 600;
 }
 
-#header {
-  width: max-content;
-  background-image: url("https://meltymooncakes.com/assets/images/background.jpg");
+.navbar-bg {
+	background-image: url("https://meltymooncakes.com/assets/images/background.jpg");
+	height: 15rem;
+	background-position: -5px;
 }
+/* #header {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
 
-/*# sourceMappingURL=index.css.map */
+	min-height: 10px;
+	width: 100%;
+	padding: 1em;
+	background-size:cover;
+	background-image: url("https://meltymooncakes.com/assets/images/background.jpg");
+} */
+
+#header h1 {
+	text-shadow: 0px 0px 5x #000000;
+}

@@ -1,0 +1,12 @@
+
+
+.stripes {
+    padding: 0 0 0 0.75vh !important;
+	background: repeating-linear-gradient(
+		45deg,
+		var(--component-striped-a),
+		var(--component-striped-a) 7px,
+		var(--component-striped-b) 7px,
+		var(--component-striped-b) 15px
+	   ) !important;
+}

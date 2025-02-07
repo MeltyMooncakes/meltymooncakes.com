@@ -1,0 +1,10 @@
+.bottom-bar {
+	bottom:0;
+	position: absolute;
+	width: 100%;
+}
+
+.navbar-brand {
+	font-weight: 700;
+	font-size: x-large;
+}
