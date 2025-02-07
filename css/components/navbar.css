@@ -4,7 +4,7 @@
 	width: 100%;
 }
 
-.navbar-brand {
+#header .navbar-brand {
 	font-weight: 700;
 	font-size: x-large;
 }
