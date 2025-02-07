@@ -15,4 +15,9 @@ body {
   font-family: montserrat;
 }
 
+#header {
+  width: max-content;
+  background-image: url("https://meltymooncakes.com/assets/images/background.jpg");
+}
+
 /*# sourceMappingURL=index.css.map */
