@@ -1,6 +1,7 @@
 @import url("https://meltymooncakes.com/css/fonts.css");
 @import url("./components/others.css");
 @import url("./components/navbar.css");
+@import url("./components/fanart.css");
 
 :root {
 	--accent: #dd9ac2;
@@ -13,7 +14,18 @@
 	--component-striped-a: #AF8BAF;
 	--component-striped-b: #F6ACC8;
 	--component-striped-text: #000000;
-	--text: #E0E0E0
+	--text: #E0E0E0;
+	--link: #2b2bd9;
+}
+
+a {
+	color: var(--link);
+	font-weight: 700;
+	text-shadow:
+		1px 1px 0px #FFF,
+		1px -1px 0px #FFF,
+		-1px 1px 0px #FFF,
+		-1px -1px 0px #FFF;
 }
 
 body {
@@ -32,8 +44,11 @@ h3 {
 .body-sub {
 	width: -moz-available;
 	width: -webkit-fill-available;
-	padding: 20px;
 	margin: 5px;
+	height: min-content;
+}
+.body-sub > div {
+	padding: 20px;
 }
 
 .sub-border {
@@ -47,7 +62,7 @@ h3 {
 }
 
 #header h1 {
-	text-shadow: 0px 0px 5x #000000;
+	text-shadow: 0px 0px 1px #00000001;
 }
 
 

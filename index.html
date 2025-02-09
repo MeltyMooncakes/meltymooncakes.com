@@ -52,9 +52,14 @@
 		</nav>
 		<div id="body">
 			<div class="body-sub sub-border stripes">
-				<h3>This website kinda sucks right now, WIP.</h3>
+				<div><h3>This website kinda sucks right now, WIP.</h3></div>
 			</div>
-			<div class="body-sub"></div>
+			<div class="body-sub">
+				<div class="sub-border stripes" id="fanart-artist">
+					<h2><a href="">Artist-Name</a></h2>
+				</div>
+				<image id="fanart-image" src="./assets/images/smug.png"></image>
+			</div>
 		</div>
 
 		<nav class="navbar bottom-bar">
@@ -66,4 +71,9 @@
 		</nav>
 	</body>
 
+	<script>
+		fetch("https://meltymooncakes.com/assets/fanart.json").then(res => {
+			console.log(res);
+		});
+	</script>
 </html>

@@ -1,7 +1,7 @@
 .bottom-bar {
-	bottom: 0;
-	position: absolute;
+	position: static;
 	width: 100%;
+	margin-top: 100px;
 }
 
 #header .navbar-brand {
