@@ -47,12 +47,9 @@ h3 {
 	height: min-content;
 }
 .body-sub > div {
-	padding: 20px;
+	padding: 10px;
 }
 
-.sub-border {
-	border: 3px solid var(--accent);
-}
 
 #body {
 	display: flex;

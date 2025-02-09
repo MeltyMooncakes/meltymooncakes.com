@@ -1,3 +1,10 @@
+.sub-border {
+	border: 3px solid var(--accent);
+}
+
+.sub-header {
+	border-bottom: none;
+}
 .stripes {
 	color: var(--component-striped-text);
 	text-shadow: 0px 0px 5x var(--component-striped-text);
@@ -20,4 +27,13 @@
 
 .center {
 	text-align: center;
+}
+
+.sub-content {
+	border-left: 3px solid var(--accent-muted);
+	border-right: 3px solid var(--accent-muted);
+	border-bottom: 3px solid var(--accent-muted);
+	background-color: var(--background-muted);
+	color: #FFFFFF;
+	font-size: 20px;
 }
