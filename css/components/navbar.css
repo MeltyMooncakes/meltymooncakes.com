@@ -17,6 +17,20 @@
 	align-content: center;
 }
 
+
+.navbar {
+	background-color: var(--navbar-background) !important;
+	font-weight: 600;
+	color: var(--navbar-text);
+}
+
+.navbar-bg {
+	background-image: url("https://meltymooncakes.com/assets/images/background.jpg");
+	height: 15rem;
+	background-position: -5px;
+	border-bottom: 5px solid var(--accent);
+}
+
 @media (min-width: 992px) {
 	.navbar-title {
 		display: none;
