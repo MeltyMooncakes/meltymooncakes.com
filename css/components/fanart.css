@@ -1,11 +1,20 @@
 #fanart-artist {
 	padding: 10px;
-	text-align: center;
+	border-bottom: none;
+}
+
+#fanart-image {
+	border: 3px solid var(--accent-muted);
+	background-color: var(--background-muted-x);
 }
 
 .fanart-image {
 	display: flex;
 	justify-content: center;
+	border-left: 3px solid var(--accent-muted);
+	border-right: 3px solid var(--accent-muted);
+	border-bottom: 3px solid var(--accent-muted);
+	background-color: var(--background-muted);
 }
 
 /* Desktop */

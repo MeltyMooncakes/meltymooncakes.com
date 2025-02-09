@@ -5,11 +5,14 @@
 
 :root {
 	--accent: #dd9ac2;
+	--accent-muted: #805970;
 
 	--navbar-background: #dd9ac2;
 	--navbar-text: #000000;
 
 	--background: #1C1C1C;
+	--background-muted: #161616;
+	--background-muted-x: #101010;
 
 	--component-striped-a: #AF8BAF;
 	--component-striped-b: #F6ACC8;
