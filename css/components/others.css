@@ -9,3 +9,11 @@
 		var(--component-striped-b) 15px
 	   ) !important;
 }
+
+.text-outline-white {
+	text-shadow:
+		1px 1px 0px #FFF,
+		1px -1px 0px #FFF,
+		-1px 1px 0px #FFF,
+		-1px -1px 0px #FFF;
+}

@@ -1,8 +1,23 @@
-
 #fanart-artist {
 	padding: 10px;
+	text-align: center;
 }
 
-#fanart-image {
-	max-width: 100%;
+.fanart-image {
+	display: flex;
+	justify-content: center;
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+	#fanart-image {
+		max-width: 60%;
+	}
+}
+
+/* Mobile */
+@media (max-width: 991px) {
+	#fanart-image {
+		max-width: 100%;
+	}
 }
