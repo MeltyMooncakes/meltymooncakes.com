@@ -1,7 +1,6 @@
-
-
 .stripes {
-    padding: 0 0 0 0.75vh !important;
+	color: var(--component-striped-text);
+	text-shadow: 0px 0px 5x var(--component-striped-text);
 	background: repeating-linear-gradient(
 		45deg,
 		var(--component-striped-a),
