@@ -54,3 +54,7 @@
 	border-radius: 7px;
 	background-color: var(--background);
 }
+
+.sub-display-center {
+	justify-content: center;
+}
