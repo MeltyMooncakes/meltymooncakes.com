@@ -5,16 +5,15 @@
 .sub-header {
 	border-bottom: none;
 }
+
 .stripes {
 	color: var(--component-striped-text);
 	text-shadow: 0px 0px 5x var(--component-striped-text);
-	background: repeating-linear-gradient(
-		45deg,
-		var(--component-striped-a),
-		var(--component-striped-a) 7px,
-		var(--component-striped-b) 7px,
-		var(--component-striped-b) 15px
-	   ) !important;
+	background: repeating-linear-gradient(45deg,
+			var(--component-striped-a),
+			var(--component-striped-a) 7px,
+			var(--component-striped-b) 7px,
+			var(--component-striped-b) 15px) !important;
 }
 
 .text-outline-white {
@@ -36,4 +35,22 @@
 	background-color: var(--background-muted);
 	color: #FFFFFF;
 	font-size: 20px;
+	text-align: center;
+}
+
+
+.sub-display {
+	display: grid;
+}
+
+.sub-display img {
+	width: 10rem;
+}
+
+.sub-display a {
+	width: min-content;
+	padding: 5px;
+	border: 1px solid var(--accent);
+	border-radius: 7px;
+	background-color: var(--background);
 }

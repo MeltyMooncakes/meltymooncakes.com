@@ -50,6 +50,17 @@ h3 {
 	padding: 10px;
 }
 
+.body-vertical-group {
+	width: -webkit-fill-available;
+	width: -moz-available;
+	display: flex;
+	flex-direction: column;
+}
+
+.body-vertical-group .body-sub:last-child {
+	align-self: flex-start;
+}
+
 
 #body {
 	display: flex;
